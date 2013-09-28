@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Dynamic Grid with Transitions | Demo 3</title>
+		<title>Dynamic Grid with Transitions | Demo 1</title>
 		<meta name="description" content="Dynamic Grid with CSS Transitions inspired by the Google Trends Grid Visualization" />
 		<meta name="keywords" content="google trends, dynamic grid, css transitions, javascript, responsive, fluid, layout" />
 		<meta name="author" content="Codrops" />
@@ -14,7 +14,7 @@
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container demo-3">
+		<div class="container demo-1">
 			<div id="gt-grid-selector" class="gt-grid-control">
 				<span class="gt-grid-icon"></span>
 				<div class="gt-grid-select">
@@ -36,9 +36,9 @@
 				<div><h3>wakame</h3></div>
 				<div><h3>lettuce water</h3></div>
 				<div><h3>turnip maize</h3></div>
-				<div class="special"><h3><a href="index.html">Demo 1: No transitions</a></h3></div>
+				<div class="special"><h3><a class="current-demo" href="index.html">Demo 1: No transitions</a></h3></div>
 				<div class="special"><h3><a href="index2.html">Demo 2: Grid transitions</a></h3></div>
-				<div class="special"><h3><a class="current-demo" href="index3.html">Demo 3: Delayed transitions</a></h3></div>
+				<div class="special"><h3><a href="index3.html">Demo 3: Delayed transitions</a></h3></div>
 				<div><h3>bunya nuts</h3></div>
 				<div><h3>celery</h3></div>
 				<div><h3>greens lotus</h3></div>
@@ -64,11 +64,7 @@
 		<script src="js/gridSelector.js"></script>
 		<script src="js/grid.js"></script>
 		<script>
-			Grid.init( {
-				transition : true,
-				speed : 450,
-				delay: 20
-			} );
+			Grid.init();
 		</script>
 	</body>
 </html>
