@@ -1,10 +1,6 @@
-
-Dynamic Grid with Transitions
+Perpetual Beta
 =========
-A dynamic grid layout that let's you choose how many rows and columns of items are shown.  Partly based on the visualization of Google Trends, except that you can add transitions.
 
-[article on Codrops](http://tympanus.net/codrops/?p=15468)
+This repository is the current laboratory in recreating [a triage of websites](http://almereyda.de) representing my curriculum, interests and skills.
 
-[demo](http://tympanus.net/Development/DynamicGrid/)
-
-[LICENSING & TERMS OF USE](http://tympanus.net/codrops/licensing/)
+Based on [Dynamic Grid](http://tympanus.net/codrops/2013/06/19/dynamic-grid-with-transitions/) by Manoela Ilic & Pedro Botelho.
