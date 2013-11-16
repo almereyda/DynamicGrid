@@ -155,7 +155,6 @@
 }
 
 .triade .gt-grid > div {
-	background-color: #fc654d;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	transform: scale(1);
@@ -166,4 +165,16 @@
 	-webkit-transform: scale(.8);
 	-moz-transform: scale(.8);
 	transform: scale(.8);
+}
+
+div[data-col = "0"] {
+        background-color: #1abc89;
+}
+
+div[data-col = "1"] {
+        background-color: #fc654d;
+}
+
+div[data-col = "2"] {
+        background-color: #ed4e6e;
 }
