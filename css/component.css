@@ -161,14 +161,14 @@
 }
 
 /* Demo 2: Transition, no delays */
-.demo-2 .gt-grid > div {
+.triade .gt-grid > div {
 	background-color: #fc654d;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	transform: scale(1);
 }
 
-.demo-2 .gt-grid > div.gt-hidden {
+.triade .gt-grid > div.gt-hidden {
 	background-color: #fcdd4d;
 	-webkit-transform: scale(.8);
 	-moz-transform: scale(.8);
