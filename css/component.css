@@ -53,11 +53,17 @@
 }
 
 /* Some content styles */
+/* disable : gridSelector */
+
+#gt-grid-selector { display:none; }
+
+/*
 .gt-grid > div:first-child {
 	background-image: url(../images/changeme.png);
 	background-repeat: no-repeat;
 	background-position: 45px 10px;
 }
+*/
 
 .gt-grid > div h1,
 .gt-grid > div h3 {
@@ -178,3 +184,4 @@ div[data-col = "1"] {
 div[data-col = "2"] {
         background-color: #ed4e6e;
 }
+
