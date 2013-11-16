@@ -35,6 +35,15 @@ var Grid = (function() {
 		}
 	}
 
+	function SetData( el, cur_row, cur_col ) {
+		if(! el.dataset.row ) {
+			el.dataset.row = cur_row
+		}
+		if(! el.dataset.col ) {
+			el.dataset.col = cur_col
+		}
+	}
+
 	function initGrid() {
 		var rows = config.gridSel.rows,
 			columns = config.gridSel.columns;
@@ -48,6 +57,8 @@ var Grid = (function() {
 				width =  100 / columns,
 				height = 100 / rows;
 
+			SetData( el, current_row, current_column );
+			
 			if( current_row < rows && current_column < columns ) {
 				/* this seems to crash Safari 6 */
 				//if( Modernizr.csscalc ) {
