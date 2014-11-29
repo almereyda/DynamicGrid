@@ -52,6 +52,16 @@
 	z-index: 999;
 }
 
+.gt-grid > .special {
+	text-align: right;
+
+}
+.gt-grid > .special pre {
+	white-space: pre-line;
+	display: inline-block;
+	padding-right: 1.75em;
+}
+
 /* Some content styles */
 /* disable : gridSelector */
 
